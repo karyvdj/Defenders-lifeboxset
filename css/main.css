@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'GothamRoundedBook';
+  src: url(../assets/fonts/GOTHAM/Gotham-Book.otf); }
+body {
+  font-family: "GothamRoundedBook";
+  color: #ffffff;
+  margin: 0; }
+
+.info {
+  width: 40%;
+  height: 145px; }
+
+iframe {
+  width: 45%; }
+
+.carousel-caption {
+  bottom: -1%;
+  text-align: left; }
+  .carousel-caption a img {
+    width: 120%; }
+
+.carousel-control-prev, .carousel-control-next {
+  top: 80%; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+@import "variable";
+
+@font-face {
+  font-family: 'GothamRoundedBook';
+  src: url(../assets/fonts/GOTHAM/Gotham-Book.otf);
+}
+body{
+  font-family: $font-principal;
+  color: $color-font;
+  margin:0;
+}
+.info{
+  width: 40%;
+  height: 145px;
+}
+iframe{
+  width: 45%;
+}
+.carousel-caption{
+  bottom: -1%;
+  text-align: left;
+    a{
+      img{
+        width: 120%;
+      }
+    }
+}
+.carousel-control-prev, .carousel-control-next {
+  top: 80%;
+}
