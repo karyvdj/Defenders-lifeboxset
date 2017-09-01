@@ -4,27 +4,66 @@
   font-family: 'GothamRoundedBook';
   src: url(../assets/fonts/GOTHAM/Gotham-Book.otf);
 }
+
 body{
   font-family: $font-principal;
+  font-size: 16px;
   color: $color-font;
   margin:0;
 }
-.info{
-  width: 40%;
-  height: 145px;
+
+img{
+  vertical-align: baseline;
 }
+
 iframe{
-  width: 45%;
+  width: 32%;
+  height: 66%;
+  margin-left:30%;
 }
+
 .carousel-caption{
-  bottom: -1%;
+  bottom: -3%;
   text-align: left;
     a{
-      img{
-        width: 120%;
-      }
+        img{
+          width: 105%;
+          padding: 0 2%;
+        }
+        .logo{
+          width: 120%;
+        }
     }
 }
+
 .carousel-control-prev, .carousel-control-next {
   top: 80%;
+}
+
+.info{
+  width: 35%;
+  left: 45%;
+  padding-top: 20%;
+}
+
+.logo{
+  width: 50%
+}
+
+@media(max-width: 720px){
+
+}
+@media(max-width: 600px){
+  .d-sm-none{
+    display: none;
+  }
+  iframe{
+    width: 85%;
+    height: 100%;
+    margin-left:10%;
+  }
+  .links-logos{
+    display: flex;
+    width: 60%;
+  }
 }
