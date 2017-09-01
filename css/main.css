@@ -29,20 +29,50 @@ iframe {
 
 .info {
   width: 35%;
-  left: 45%;
-  padding-top: 20%; }
+  left: 45%; }
 
 .logo {
   width: 50%; }
 
-@media (max-width: 770px) {
+@media (max-width: 1122px) {
+  .info {
+    font-size: .9em; }
+    .info img {
+      width: 50%; } }
+@media (max-width: 990px) {
+  .info img {
+    width: 45%; }
+
+  .logo {
+    bottom: 0; }
+    .logo img {
+      width: 30%; } }
+@media (max-width: 950px) {
+  .info {
+    font-size: .8em; }
+    .info img {
+      width: 40%; } }
+@media (max-width: 850px) {
+  .info {
+    line-height: 1.2em; }
+    .info img {
+      width: 35%; } }
+@media (max-width: 766px) {
   iframe {
     width: 85%;
     height: 100%;
     margin-left: 10%; }
 
   .links-logos a {
-    margin: 0 5%; } }
+    margin: 0 5%; }
+
+  .info {
+    left: 20%;
+    width: 60%;
+    line-height: 1.5em; }
+
+  .carousel-caption {
+    bottom: 5%; } }
 @media (max-width: 600px) {
   .d-sm-none {
     display: none; }
@@ -59,6 +89,21 @@ iframe {
       margin: 0 5%; }
 
   .info-character {
-    display: inline-block; } }
+    display: inline-block; }
+
+  .info {
+    width: 55%;
+    left: 20%; }
+
+  .logo-mobile {
+    position: absolute;
+    top: 30%; } }
+@media (max-width: 526px) {
+  .info {
+    width: 75%;
+    left: 15%;
+    position: absolute;
+    top: 33%;
+    line-height: 1.2em; } }
 
 /*# sourceMappingURL=main.css.map */
