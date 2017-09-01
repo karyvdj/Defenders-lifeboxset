@@ -50,8 +50,17 @@ iframe{
   width: 50%
 }
 
-@media(max-width: 720px){
-
+@media(max-width: 770px){
+  iframe{
+    width: 85%;
+    height: 100%;
+    margin-left:10%;
+  }
+  .links-logos{
+      a{
+        margin: 0 5%;
+      }
+  }
 }
 @media(max-width: 600px){
   .d-sm-none{
@@ -65,5 +74,11 @@ iframe{
   .links-logos{
     display: flex;
     width: 60%;
+      a{
+        margin: 0 5%;
+      }
+  }
+  .info-character{
+    display: inline-block;;
   }
 }
